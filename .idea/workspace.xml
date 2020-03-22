@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cceccc0a-e1f5-4a60-8c4c-b007ee211a69" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1ZRTVVhWn0ppdOaHuMfkO6CrfpS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cceccc0a-e1f5-4a60-8c4c-b007ee211a69" name="Default Changelist" comment="" />
+      <created>1584800930903</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584800930903</updated>
+      <workItem from="1584800932177" duration="9485000" />
+      <workItem from="1584832897998" duration="12347000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2132" y="358" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584833676442">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2132" y="358" key="#com.intellij.fileTypes.FileTypeChooser/1440.23.1920.1057/0.23.1440.877@1440.23.1920.1057" timestamp="1584833676442" />
+  </component>
+</project>
