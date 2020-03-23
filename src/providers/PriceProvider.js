@@ -3,7 +3,6 @@ import React , {useState, useEffect}from "react";
 import {getPrices} from '../lib/priceService'
 import {ORDER, orderData} from '../util'
 
-
 const initialState = {
     prices: [],
     orderBy : [ {

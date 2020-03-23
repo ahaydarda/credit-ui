@@ -2,10 +2,9 @@ import React from 'react';
 import { action } from '@storybook/addon-actions';
 import { Table } from './Table';
 
-const {TableBody, TableHeader} = Table;
+const {TableBody, TableHeader, TableRow} = Table;
 const { TableTitle} = TableHeader;
-const { TableRow} = TableBody;
-const { RowItem} = TableRow;
+const { TableRowItem} = TableRow;
 
 export default {
   title: 'Table',
@@ -102,9 +101,9 @@ export const customChildrenTable = () => {
                 {
                     prices.map(item =>(
                         <TableRow>
-                            <RowItem>{item["assetClass"]}</RowItem>
-                            <RowItem>{item["price"]}</RowItem>
-                            <RowItem>{item["ticker"]}</RowItem>
+                            <TableRowItem>{item["assetClass"]}</TableRowItem>
+                            <TableRowItem>{item["price"]}</TableRowItem>
+                            <TableRowItem>{item["ticker"]}</TableRowItem>
                         </TableRow>
                     ))
                 }

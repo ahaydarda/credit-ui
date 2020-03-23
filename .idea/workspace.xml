@@ -2,25 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cceccc0a-e1f5-4a60-8c4c-b007ee211a69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProductPriceTable/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/providers/PriceProvider.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/collection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Table/CollectionRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Table/TableBody.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Table/TableContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Table/TableHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Table/TableRow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Table/TableUtil.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProductPriceTable/config.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ProductPriceTable/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductPriceTable/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Table/Table.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Table/Table.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Table/Table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Table/Table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/priceService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/priceService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Table/table.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Table/Table.stories.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/providers/PriceProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/providers/PriceProvider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/prices.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584800930903</updated>
       <workItem from="1584800932177" duration="9485000" />
-      <workItem from="1584832897998" duration="56660000" />
+      <workItem from="1584832897998" duration="61129000" />
     </task>
     <servers />
   </component>
@@ -78,9 +70,10 @@
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="2139" y="341" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1440.23.1920.1057/0.23.1440.877@1440.23.1920.1057" timestamp="1584989096436" />
-    <state x="2080" y="187" width="639" height="729" key="find.popup" timestamp="1584920767038">
-      <screen x="1440" y="23" width="1920" height="1057" />
+    <state x="480" y="159" width="683" height="605" key="find.popup" timestamp="1585005802412">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
+    <state x="480" y="159" width="683" height="605" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1585005802412" />
     <state x="2080" y="187" width="639" height="729" key="find.popup/1440.23.1920.1057/0.23.1440.877@1440.23.1920.1057" timestamp="1584920767038" />
     <state x="2049" y="256" width="670" height="676" key="search.everywhere.popup" timestamp="1584918394663">
       <screen x="1440" y="23" width="1920" height="1057" />
@@ -92,9 +85,15 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/ProductPriceTable/index.js</url>
-          <line>18</line>
+          <line>17</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Table/Table.stories.js</url>
+          <line>5</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,13 +1,12 @@
 import React, {useContext} from "react";
 import {PriceContext} from "../../providers/PriceProvider";
-import {Table} from "../Table";
+import {Table } from "../Table";
 import classnames from 'classnames';
 import './index.css';
 
-const { TableBody, TableHeader} = Table;
+const { TableBody, TableHeader, TableRow} = Table;
 const { TableTitle} = TableHeader;
-const { TableRow} = TableBody;
-const { RowItem} = TableRow;
+const { TableRowItem} = TableRow;
 
 
 const getPriceClass = (price)=>{
@@ -50,11 +49,11 @@ export const ProductPriceTable = ({classNames}) =>{
                          {
                              prices && prices.map(({assetClass, price, ticker}) =>(
                                  <TableRow className={getRowClass(assetClass)}>
-                                     <RowItem>{assetClass}</RowItem>
-                                     <RowItem >
+                                     <TableRowItem>{assetClass}</TableRowItem>
+                                     <TableRowItem >
                                          <span className={getPriceClass(price)}>{price}</span>
-                                     </RowItem>
-                                     <RowItem>{ticker}</RowItem>
+                                     </TableRowItem>
+                                     <TableRowItem>{ticker}</TableRowItem>
                                  </TableRow>
                              ))
                          }
