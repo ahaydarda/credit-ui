@@ -1,18 +1,23 @@
 
-import React , {useReducer, useEffect}from "react";
-import prices, {LOAD_PRICES, UPDATE_PRICE} from "../reducers/prices";
-import { getPrices} from '../lib/priceService'
+import React , {useState, useEffect}from "react";
+import {getPrices} from '../lib/priceService'
+import {ORDER, orderData} from '../util'
 
-const assetOrder = ["macro","equities","credit"];
 
-const assetComparer = (item) =>{
-     const {assetClass} = item;
-     return  assetOrder.length - assetOrder.findIndex(asset=> asset.toLowerCase()===assetClass.toLowerCase());
-}
 const initialState = {
     prices: [],
-    compareOrder : [assetComparer,"price","ticker"],
-    comparer: ["desc","desc","asc"],
+    orderBy : [ {
+                    key:"assetClass",
+                    order:["macro","equities","credit"]
+                },
+                {
+                    key:"price",
+                    order:ORDER.DESC
+                },
+                {
+                    key:"ticket",
+                    order:ORDER.ASC
+                }]
 }
 
 
@@ -20,26 +25,18 @@ const initialState = {
 const PriceContext = React.createContext({});
 
 const PriceProvider = ({children}) =>{
-    const [state, dispatch] = useReducer(prices,initialState);
+    const [state, setState] = useState(initialState);
+    const {orderBy} =state;
     useEffect(()=>{
             getPrices().then((prices)=>{
-                console.log("prices",prices);
-
-                dispatch({type:LOAD_PRICES,payload:prices})
+                console.log("loading prices..",prices);
+                setState({...state,prices:orderData({data:prices,orderBy})})
             });
 
     },[]);
 
-    // setTimeout(()=>{
-    //     const newPrices=  [...state.prices, {
-    //         "ticker": "ALPHA",
-    //         "price": 3150.67,
-    //         "assetClass": "Credit"
-    //     }];
-    //     dispatch({type:UPDATE_PRICE,payload:newPrices})
-    // },5000)
     return (
-            <PriceContext.Provider value={[state,dispatch]}>
+            <PriceContext.Provider value={[state,setState]}>
                 {children}
             </PriceContext.Provider>
         )

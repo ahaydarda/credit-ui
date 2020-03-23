@@ -1,13 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cceccc0a-e1f5-4a60-8c4c-b007ee211a69" name="Default Changelist" comment="" />
+    <list default="true" id="cceccc0a-e1f5-4a60-8c4c-b007ee211a69" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductPriceTable/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/providers/PriceProvider.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/collection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProductPriceTable/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProductPriceTable/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductPriceTable/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Table/Table.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Table/Table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Table/Table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Table/Table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/priceService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/priceService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/providers/PriceProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/providers/PriceProvider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/prices.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZRTVVhWn0ppdOaHuMfkO6CrfpS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,11 +39,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Table" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -32,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584800930903</updated>
       <workItem from="1584800932177" duration="9485000" />
-      <workItem from="1584832897998" duration="12347000" />
+      <workItem from="1584832897998" duration="56660000" />
     </task>
     <servers />
   </component>
@@ -44,5 +74,29 @@
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="2132" y="358" key="#com.intellij.fileTypes.FileTypeChooser/1440.23.1920.1057/0.23.1440.877@1440.23.1920.1057" timestamp="1584833676442" />
+    <state x="2139" y="341" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584989096436">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2139" y="341" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1440.23.1920.1057/0.23.1440.877@1440.23.1920.1057" timestamp="1584989096436" />
+    <state x="2080" y="187" width="639" height="729" key="find.popup" timestamp="1584920767038">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2080" y="187" width="639" height="729" key="find.popup/1440.23.1920.1057/0.23.1440.877@1440.23.1920.1057" timestamp="1584920767038" />
+    <state x="2049" y="256" width="670" height="676" key="search.everywhere.popup" timestamp="1584918394663">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2049" y="256" width="670" height="676" key="search.everywhere.popup/1440.23.1920.1057/0.23.1440.877@1440.23.1920.1057" timestamp="1584918394663" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/ProductPriceTable/index.js</url>
+          <line>18</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

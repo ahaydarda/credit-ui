@@ -7,7 +7,7 @@ const prices = [
     },
     {
         "ticker": "BETA",
-        "price": 3750.67,
+        "price": -350.67,
         "assetClass": "Macro"
     },
     {
@@ -33,6 +33,11 @@ const prices = [
     {
         "ticker": "ALPHA",
         "price": 55.37,
+        "assetClass": "Equities"
+    },
+    {
+        "ticker": "ALPHA",
+        "price": -55.37,
         "assetClass": "Equities"
     }
 ]

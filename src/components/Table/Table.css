@@ -1,49 +1,52 @@
-
-table {
+.ctable table {
     display: grid;
     border-collapse: collapse;
     min-width: 100%;
     /*grid-template-columns: minmax(150px, 3.33fr)*/
     /*minmax(150px, 3.33fr)*/
     /*minmax(150px, 3.33fr)*/
+    border: var(--ctable-border, 0.1em solid lightgray) ;
 }
 
-thead,
-tbody,
-tr {
+.ctable thead,
+.ctable tbody,
+.ctable tr {
     display: contents;
 }
 
-th,
-td {
-    padding: 15px;
+.ctable  th,
+.ctable  td {
+    padding: var(--ctable-row-padding, 15px);
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     text-align: left;
+    border : var(--ctable-row-border,solid 0.5px grey);
 }
 
-th {
+.ctable th {
     position: sticky;
     top: 0;
-    background: #6c7ae0;
+    background: var(--ctable-header-background-color, #154C8A) ;
     text-align: left;
     font-weight: normal;
-    font-size: 1.1rem;
-    color: white;
+    font-size: var(--ctable-header-font-size, 1.1rem);
+    color: var(--ctable-header-color, white) ;
+    border : var(--ctable-header-border,solid 0.5px grey);
 }
 
-th:last-child {
+.ctable th:last-child {
     border: 0;
 }
 
-td {
+.ctable td {
     padding-top: 10px;
     padding-bottom: 10px;
-    color: #808080;
+    font-size: var(--ctable-header-font-size, 0.9rem);
+    color: var(--ctable-row-color, #808080) ;
 }
 
-tr:nth-child(even) td {
-    background: #f8f6ff;
-}
+/*.ctable tr:nth-child(even) td {*/
+/*    background: var(--ctable-row-split-color ,#f8f6ff) ;*/
+/*}*/
 

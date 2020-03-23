@@ -6,7 +6,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header>JP Morgan Credit UI</header>
+      <div className="App-header">Product Price UI</div>
       <PriceProvider>
         <ProductPriceTable/>
       </PriceProvider>

@@ -1,0 +1,30 @@
+.product-price-table{
+    padding: 15px;
+    --ctable-header-background-color: rgba(var(--primary-base-grey-rgb));
+    --ctable-header-color: white;
+    --ctable-row-color: white;
+    --macro-background-color:#E12901;
+    --equities-background-color: #87CDEE;
+    --credit-background-color:#4FC978;
+    --positive-price-color:#1035AC;
+    --negative-price-color:#800000;
+}
+
+.macro{
+    background-color:var(--macro-background-color);
+}
+
+.equities{
+    background-color:var(--equities-background-color);
+}
+
+.credit{
+    background-color:var(--credit-background-color);
+}
+
+.positive-price {
+   color: var(--positive-price-color);
+}
+.negative-price {
+    color: var(--negative-price-color);
+}
