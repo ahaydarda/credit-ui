@@ -20,8 +20,8 @@ const RowItem = ({className,children}) =>{
 }
 
 
-export const TableRow = ({data,className, children}) =>{
-    return (<tr className={className}>
+export const TableRow = ({ id, data,className, children}) =>{
+    return (<tr key={id} className={className}>
             <TableConsumer>
                 {({columns}) => (
                     <CollectionRenderer

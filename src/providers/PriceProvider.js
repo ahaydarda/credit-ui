@@ -5,20 +5,11 @@ import {ORDER, orderData} from '../util'
 
 const initialState = {
     prices: [],
-    orderBy : [ {
-                    key:"assetClass",
-                    order:["macro","equities","credit"]
-                },
-                {
-                    key:"price",
-                    order:ORDER.DESC
-                },
-                {
-                    key:"ticket",
-                    order:ORDER.ASC
-                }]
+    orderBy: { assetClass:["macro","equities","credit"],
+              price: ORDER.DESC,
+              ticker: ORDER.ASC
+              }
 }
-
 
 
 const PriceContext = React.createContext({});
@@ -41,6 +32,18 @@ const PriceProvider = ({api, children}) =>{
         )
 }
 
+const  PriceConsumer = (props) =>(
+        <PriceContext.Consumer {...props}>
+            {context => {
+                if (!context) {
+                    throw new Error(
+                        `PriceContext cannot be rendered outside the PriceProvider component`,
+                    )
+                }
+                return props.children(context)
+            }}
+        </PriceContext.Consumer>
+)
 
 
-export {PriceContext, PriceProvider};
+export {PriceContext, PriceProvider, PriceConsumer};

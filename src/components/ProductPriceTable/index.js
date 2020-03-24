@@ -16,9 +16,7 @@ const getPriceClass = (price)=>{
 const getRowClass = (assetClass)=>{
     return assetClass? classnames( `${assetClass.toLowerCase()}`) :"";
 }
-export const ProductPriceTable = ({classNames}) =>{
-    const [state] = useContext(PriceContext);
-    const {prices} = state;
+export const ProductPriceTable = ({classNames, prices}) =>{
     return (
              <div className={classnames(classNames,'product-price-table')}>
                  <Table>
@@ -47,8 +45,8 @@ export const ProductPriceTable = ({classNames}) =>{
                      </TableHeader>
                      <TableBody>
                          {
-                             prices && prices.map(({assetClass, price, ticker}) =>(
-                                 <TableRow className={getRowClass(assetClass)}>
+                             prices && prices.map(({ id, assetClass, price, ticker}) =>(
+                                 <TableRow key={id} className={getRowClass(assetClass)}>
                                      <TableRowItem>{assetClass}</TableRowItem>
                                      <TableRowItem >
                                          <span className={getPriceClass(price)}>{price}</span>

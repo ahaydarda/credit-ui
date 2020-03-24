@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="product-price-table"
+>
+  <div
+    className="ctable"
+  >
+    <table
+      style={
+        Object {
+          "gridTemplateColumns": "minmax(200px,4fr) minmax(150px,3fr) minmax(50px,3fr)",
+        }
+      }
+    >
+      <thead>
+        <tr>
+          <th>
+            Asset Class
+          </th>
+          <th>
+            Price
+          </th>
+          <th>
+            Ticker
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          className="macro"
+        >
+          <td
+            className="macro"
+          >
+            Macro
+          </td>
+          <td
+            className="macro"
+          >
+            <span
+              className="positive-price"
+            >
+              3150.67
+            </span>
+          </td>
+          <td
+            className="macro"
+          >
+            ALPHA
+          </td>
+        </tr>
+        <tr
+          className="credit"
+        >
+          <td
+            className="credit"
+          >
+            Credit
+          </td>
+          <td
+            className="credit"
+          >
+            <span
+              className="negative-price"
+            >
+              -350.67
+            </span>
+          </td>
+          <td
+            className="credit"
+          >
+            BETA
+          </td>
+        </tr>
+        <tr
+          className="equities"
+        >
+          <td
+            className="equities"
+          >
+            Equities
+          </td>
+          <td
+            className="equities"
+          >
+            <span
+              className="positive-price"
+            >
+              3791.37
+            </span>
+          </td>
+          <td
+            className="equities"
+          >
+            BETA
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;

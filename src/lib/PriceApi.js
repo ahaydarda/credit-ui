@@ -42,9 +42,16 @@ const prices = [
     }
 ]
 
+const addRandomUniqueIds = (prices)=>{
+    return prices.map( (item)=> !item.id? {id: ID(), ...item}: item);
+}
+
+var ID = function () {
+    return '_' + Math.random().toString(36).substr(2, 9);
+}
 
 const getPrices = () =>{
-    return Promise.resolve(prices);
+    return Promise.resolve(addRandomUniqueIds(prices));
 }
 
 export default {getPrices};

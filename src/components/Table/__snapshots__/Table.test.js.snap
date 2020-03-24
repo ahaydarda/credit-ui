@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it creates table when column and data provided as property 1`] = `
+<div
+  className="ctable"
+>
+  <table
+    style={
+      Object {
+        "gridTemplateColumns": "minmax(200px,4fr) minmax(50px,6fr)",
+      }
+    }
+  >
+    <thead>
+      <tr>
+        <th>
+          ID
+        </th>
+        <th>
+          Name
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          1
+        </td>
+        <td>
+          Ali Haydar Detmer Acar
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

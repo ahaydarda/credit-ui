@@ -32,8 +32,10 @@ export class Table extends Component {
         const columns = getColumnsFromPropOrChildren({...rest});
         const gridTemplateColumns = calculateGridTemplateColumns(columns);
         const {children} = rest;
+        const indexOfId =  columns && columns.findIndex(item=>  item.isUniqueId === true)
+        const uniqueId = indexOfId>0? columns[indexOfId].dataIndex : null;
         return (
-            <TableProvider value={rest}>
+            <TableProvider value={ {...rest, uniqueId}}>
                 <div className={classnames(className, 'ctable')}>
                     <table style={{gridTemplateColumns: gridTemplateColumns}}>
                         {

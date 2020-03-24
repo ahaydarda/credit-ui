@@ -7,10 +7,10 @@ export const TableBody = ({children}) =>{
     return (
         <tbody>
             <TableConsumer>
-                {({data}) => (
+                {({data, uniqueId}) => (
                     <CollectionRenderer
                         collection={data}
-                        itemRender={(item) =>(<TableRow data={item}/>)}
+                        itemRender={(item) =>(<TableRow key={uniqueId} data={item}/>)}
                     >
                         {children}
                     </CollectionRenderer>

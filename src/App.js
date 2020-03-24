@@ -1,6 +1,6 @@
 import React from 'react';
-import {PriceProvider} from "./providers/PriceProvider";
-import {ProductPriceTable} from "./components/ProductPriceTable";
+import {PriceProvider, PriceConsumer} from "./providers/PriceProvider";
+import {ProductPriceTable,} from "./components/ProductPriceTable";
 import PriceApi from "./lib/PriceApi";
 import './App.css';
 
@@ -9,7 +9,12 @@ function App() {
     <div className="App">
       <div className="App-header">Product Price UI</div>
       <PriceProvider api={PriceApi}>
-        <ProductPriceTable/>
+          <PriceConsumer>
+              {
+                  ([state])=><ProductPriceTable prices={state.prices}/>
+              }
+          </PriceConsumer>
+
       </PriceProvider>
     </div>
   );

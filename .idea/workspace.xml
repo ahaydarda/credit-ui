@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cceccc0a-e1f5-4a60-8c4c-b007ee211a69" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/ProductPriceTable/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Table/Table.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/collection.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/priceService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/PriceApi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProductPriceTable/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductPriceTable/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Table/Table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Table/Table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Table/Table.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Table/Table.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Table/TableBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Table/TableBody.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Table/TableRow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Table/TableRow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/PriceApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/PriceApi.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/providers/PriceProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/providers/PriceProvider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/providers/PriceProvider.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/providers/PriceProvider.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/util/collection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/collection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +43,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -49,7 +61,10 @@
       <option name="presentableId" value="Default" />
       <updated>1584800930903</updated>
       <workItem from="1584800932177" duration="9485000" />
-      <workItem from="1584832897998" duration="62387000" />
+      <workItem from="1584832897998" duration="67779000" />
+      <workItem from="1585039532747" duration="4362000" />
+      <workItem from="1585044850799" duration="2895000" />
+      <workItem from="1585049026162" duration="3374000" />
     </task>
     <servers />
   </component>
@@ -81,13 +96,11 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/ProductPriceTable/index.js</url>
           <line>17</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/Table/Table.stories.js</url>
           <line>5</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

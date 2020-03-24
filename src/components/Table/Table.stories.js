@@ -69,8 +69,20 @@ export const  renderPropsTable = () =>(
 )
 
 
+export const  renderPropsTableWithCustomTitle = () =>(
+    <Table columns={columns} data={prices}>
+        <TableHeader>
+            {(columns)=> columns && columns.map(column=>( <TableTitle {...columns}>{
+                <span style={{textDecoration: "underline"}}>{column.title}</span>}</TableTitle>)) }
+        </TableHeader>
+        <TableBody>
+            {(rows)=> rows && rows.map(row=><TableRow data={row}/>) }
+        </TableBody>
+    </Table>
+)
 
-export const customChildrenTable = () => {
+
+export const customChildrenTableWithCustomRow = () => {
     return (
         <Table>
            <TableHeader>
@@ -102,7 +114,7 @@ export const customChildrenTable = () => {
                     prices.map(item =>(
                         <TableRow>
                             <TableRowItem>{item["assetClass"]}</TableRowItem>
-                            <TableRowItem>{item["price"]}</TableRowItem>
+                            <TableRowItem><span style={{color:"red"}}>{item["price"]}</span></TableRowItem>
                             <TableRowItem>{item["ticker"]}</TableRowItem>
                         </TableRow>
                     ))
