@@ -1,7 +1,6 @@
 import _ from 'lodash';
 import {ORDER} from "./constants";
 
-
 const transformOrder = ({key,order})=>{
     if(Array.isArray(order)){
         return { key: item => {

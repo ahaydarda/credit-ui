@@ -43,6 +43,8 @@ const prices = [
 ]
 
 
-export const getPrices = () =>{
+const getPrices = () =>{
     return Promise.resolve(prices);
 }
+
+export default {getPrices};

@@ -1,6 +1,6 @@
 
 import React , {useState, useEffect}from "react";
-import {getPrices} from '../lib/priceService'
+import {getPrices} from '../lib/PriceApi'
 import {ORDER, orderData} from '../util'
 
 const initialState = {
@@ -23,11 +23,11 @@ const initialState = {
 
 const PriceContext = React.createContext({});
 
-const PriceProvider = ({children}) =>{
+const PriceProvider = ({api, children}) =>{
     const [state, setState] = useState(initialState);
     const {orderBy} =state;
     useEffect(()=>{
-            getPrices().then((prices)=>{
+             api && api.getPrices().then((prices)=>{
                 console.log("loading prices..",prices);
                 setState({...state,prices:orderData({data:prices,orderBy})})
             });
