@@ -2,8 +2,8 @@
     padding: 15px;
     --ctable-header-background-color: rgba(var(--primary-base-grey-rgb));
     --ctable-header-color: white;
-    --ctable-row-color: white;
-    --macro-background-color:#E12901;
+    --ctable-row-color: black;
+    --macro-background-color:white;
     --equities-background-color: #87CDEE;
     --credit-background-color:#4FC978;
     --positive-price-color:#1035AC;
